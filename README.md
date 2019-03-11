@@ -20,6 +20,7 @@ Sending sms through python's twilio module and logging into a mysql database for
 <br />
 <br />
 2. Create a MySQL database with the following syntax <br />
+
 ```CREATE TABLE smstable (
     id INT AUTO_INCREMENT PRIMARY KEY,
     ts TIMESTAMP,
