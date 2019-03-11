@@ -1,0 +1,10 @@
+---
+- hosts: localhost
+  tasks:
+  - name: Twilio Container
+    docker_container:
+      name: twilio
+      image: <name_image_created_by_Dockerfile>
+      cleanup: false
+      volumes:
+        - /<path>/contact_list.csv:/<path>/contact_list.csv:ro
