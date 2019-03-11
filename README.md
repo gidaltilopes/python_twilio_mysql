@@ -28,7 +28,7 @@ Sending sms through python's twilio module and logging into a mysql database for
     num VARCHAR(30) NOT NULL,
     id VARCHAR(9) NOT NULL,
     message VARCHAR(250) NOT NULL
-);```
-
+);
+```
 3. Run Ansible playbook. <br />
 ```ansible-paybook /<path>/ansible/playbook.yml```
